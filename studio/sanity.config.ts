@@ -1,11 +1,11 @@
-import {defineConfig} from 'sanity'
-import {structureTool} from 'sanity/structure'
-import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemaTypes'
+import { defineConfig } from 'sanity'
+import { structureTool } from 'sanity/structure'
+import { visionTool } from '@sanity/vision'
+import { schemaTypes } from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'rifat-mimarlik',
+  title: 'Zebkare Mimarlık Yönetim Paneli',
 
   projectId: 'ip6wmtn2',
   dataset: 'production',
